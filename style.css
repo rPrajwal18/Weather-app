@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Oxygen Mono", monospace;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #eae6e2;
+    color: #444e54;
+    box-sizing: border-box;
+}
+
+.weather-box .inputBox {
+    font-family: "Oxygen Mono", monospace;
+    font-style: normal;
+    font-size: 14px;
+    margin: 10px 10px;
+    padding: 5px 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid #332b1d;
+}
+
+.weather-box button {
+    display: inline-block;
+    border: 2px solid #332b1d;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: "Oxygen Mono", monospace;
+    font-size: 14px;
+    background-color: #d0cd8f;
+    cursor: pointer;
+}
+
+.weather-box button:hover {
+    background-color: #b9b559;
+}
+
+.weather-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cityDisplay {
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.tempDisplay {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.descDisplay {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.humidityDisplay {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.errorDisplay {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#footer {
+    position: relative;
+    bottom: -125px;
+    text-align: center;
+}
+
+#footer p {
+    font-size: 12px;
+}
